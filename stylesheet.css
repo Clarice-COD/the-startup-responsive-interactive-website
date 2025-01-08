@@ -1,0 +1,29 @@
+body{
+    /* COLOR */
+    --primary-background-color: #E9ECEE;
+    --secundaire-background-color: #050A1A;
+    ---primary-button-color: #E9ECEE;
+    --secundaire-button-color: #050A1A;
+    --primary-text-color: #17161C;
+    --secundaire-text-color: #DADFE3;
+    --primare-heighleight-color: #AADC64;
+
+    /* FONTS */
+    --font-size-h1: 160px;
+    --font-size-h2: 60px;
+    --font-size-h3: 48px;
+    --font-size-text-l: 40px;
+    --font-size-text-m: 18px;
+    --font-size-text-s: 16px;
+
+    --font-family: "NB International Pro";
+
+    --font-weight-text: 400;
+    --font-weight-header: 500;
+
+    /* BUTTONS */
+    --primary-button-color: #E9ECEE;
+    --secundaire-button-color: #E9ECEE;
+    --primary-button-padding: 12px;
+    --primary-button-radius: 66px;
+}
