@@ -12,7 +12,7 @@ body{
     --font-size-h1: 160px;
     --font-size-h2: 60px;
     --font-size-h3: 48px;
-    --font-size-text-l: 40px;
+    --font-size-text-l: 24px;
     --font-size-text-m: 18px;
     --font-size-text-s: 16px;
 
@@ -21,9 +21,64 @@ body{
     --font-weight-text: 400;
     --font-weight-header: 500;
 
+    --line-height-h1: 144px;
+    --line-height-h2: 60px;
+    --line-height-h3: 48px;
+    --line-height-text: 27px;
+
+    --max-width-text: 36rem;
+
     /* BUTTONS */
     --primary-button-color: #E9ECEE;
-    --secundaire-button-color: #E9ECEE;
+    --secundaire-button-color: #050A1A;
     --primary-button-padding: 12px;
     --primary-button-radius: 66px;
+
+    /* FONTS */
+
+    h1, h2, h3, p{
+        font-family: var(--font-family);
+    }
+
+    h1{
+        font-size: var(--font-size-h1);
+        line-height: var(--line-height-h1);
+    }
+
+    h2{
+        font-size: var(--font-size-h2);
+        line-height: var(--line-height-h2);
+    }
+
+    h3{
+        font-size: var(--font-size-h3);
+        line-height: var(--line-height-h3);
+    }
+
+    p{
+        font-size: var(--font-size-text-m);
+        font-weight: var(--font-weight-text);
+        line-height: var(--line-height-text);
+        max-width: var(--max-width-text);
+    }
+
+    .text-large{
+        font-size: var(--font-size-text-l);
+    }
+
+    .text-mid{
+        font-size: var(--font-size-text-m);
+    }
+
+    .text-small{
+        font-size: var(--font-size-text-s);
+    }
+
+    .fonts-dark{
+        color: var(--primary-text-color);
+    }
+
+    .fonts-light{
+        color: var(--secundaire-text-color);
+    }
 }
