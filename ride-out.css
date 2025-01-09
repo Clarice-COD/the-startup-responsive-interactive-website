@@ -101,7 +101,7 @@ body{
         background-color: var(--secundaire-button-color);
         color: var(--primary-text-color);
     }
-
+    
     .input-button{
         padding: var(--secundaire-button-padding);
         border-radius: var(--secundaire-button-radius);
