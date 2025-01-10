@@ -1,0 +1,52 @@
+/* INDEX */
+.header-index{
+    display: flex;
+    flex-direction: column;
+}
+
+.main-index{
+    display: flex;
+    flex-direction: column;
+}
+
+.card-parent-index{
+    display: flex;
+    flex-direction: row;
+}
+
+.card-child-index{
+    display: flex;
+    flex-direction: column;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+}
+
+/* ROUTE PLANNER */
+.header-route-planner{
+    display: flex;
+    flex-direction: column;
+}
+
+.main-route-planner{
+    display: flex;
+    flex-direction: row;
+}
+
+.card-parent-route-planner{
+    display: flex;
+    flex-direction: row;
+}
+
+.card-child-route-planner{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-route-planner{
+    display: flex;
+    flex-direction: row;
+}
+
