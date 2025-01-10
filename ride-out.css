@@ -26,7 +26,10 @@ body{
     --line-height-h3: 48px;
     --line-height-text: 27px;
 
-    --max-width-text: 36rem;
+    --max-width-text: 16rem;
+    --max-width-h1: 64rem;
+    --max-width-h2: 36rem;
+    --max-width-h3: 20rem;
 
     /* BUTTONS */
     --primary-button-padding: 12px;
@@ -44,16 +47,19 @@ body{
     h1{
         font-size: var(--font-size-h1);
         line-height: var(--line-height-h1);
+        max-width: var(--max-width-h1);
     }
 
     h2{
         font-size: var(--font-size-h2);
         line-height: var(--line-height-h2);
+        max-width: var(--max-width-h2);
     }
 
     h3{
         font-size: var(--font-size-h3);
         line-height: var(--line-height-h3);
+        max-width: var(--max-width-h3);
     }
 
     p{
@@ -81,6 +87,10 @@ body{
 
     .fonts-light{
         color: var(--secundaire-text-color);
+    }
+
+    .highleight-text{
+        color: var(--primare-heighleight-color);
     }
 
 
