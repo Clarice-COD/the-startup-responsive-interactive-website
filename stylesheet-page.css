@@ -1,3 +1,4 @@
+/* BASIS OPZET */
 @layer styleguide {
     html, body {
       scroll-behavior: smooth;
@@ -42,3 +43,44 @@
       }
     }
   }
+
+  /* EIGEN TOEVOEGINGEN */
+  .color-1{
+    background-color: #E9ECEE;
+  }
+
+  .color-2{
+    background-color: #050A1A;
+    color: #E9ECEE;
+  }
+
+  .color-3{
+    background-color: #E9ECEE;
+  }
+
+  .color-4{
+    background-color: #050A1A;
+    color: #E9ECEE;
+  }
+
+  .color-5{
+    background-color: #17161C;
+    color: #E9ECEE;
+  }
+
+  .color-6{
+    background-color: #DADFE3;
+  }
+
+  .color-7{
+    background-color: #AADC64;
+  }
+
+  .color-8{
+    background: linear-gradient(0.25turn, #3F2C23, #FFC08B, #B45622);
+  }
+
+  .color-9{
+    background: radial-gradient(#FF0000, #5E5AFF);
+  }
+
