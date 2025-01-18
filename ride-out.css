@@ -8,7 +8,7 @@ body {
     --secundaire-button-color: #E9ECEE;
     --primary-text-color: #17161C;
     --secundaire-text-color: #DADFE3;
-    --primare-heighleight-color: #AADC64;
+    --primary-heighleight-color: #AADC64;
 
     /* FONTS */
     --font-size-h1: 160px;
@@ -96,7 +96,7 @@ body {
     }
 
     .highleight-text {
-        color: var(--primare-heighleight-color);
+        color: var(--primary-heighleight-color);
     }
 
 
