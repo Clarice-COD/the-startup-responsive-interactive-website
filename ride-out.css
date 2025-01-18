@@ -1,4 +1,6 @@
-body{
+
+
+body {
     /* COLOR */
     --primary-background-color: #E9ECEE;
     --secundaire-background-color: #050A1A;
@@ -37,67 +39,71 @@ body{
     --primary-button-radius: 66px;
     --secundaire-button-radius: none;
     --primary-button-border: none;
+}
 
-    /* FONTS */
+/* FONTS */
 
-    h1, h2, h3, p{
+    h1,
+    h2,
+    h3,
+    p {
         font-family: var(--font-family);
     }
 
-    h1{
+    h1 {
         font-size: var(--font-size-h1);
         line-height: var(--line-height-h1);
         max-width: var(--max-width-h1);
     }
 
-    h2{
+    h2 {
         font-size: var(--font-size-h2);
         line-height: var(--line-height-h2);
         max-width: var(--max-width-h2);
     }
 
-    h3{
+    h3 {
         font-size: var(--font-size-h3);
         line-height: var(--line-height-h3);
         max-width: var(--max-width-h3);
     }
 
-    p{
+    p {
         font-size: var(--font-size-text-m);
         font-weight: var(--font-weight-text);
         line-height: var(--line-height-text);
         max-width: var(--max-width-text);
     }
 
-    .text-large{
+    .text-large {
         font-size: var(--font-size-text-l);
     }
 
-    .text-mid{
+    .text-mid {
         font-size: var(--font-size-text-m);
     }
 
-    .text-small{
+    .text-small {
         font-size: var(--font-size-text-s);
     }
 
-    .fonts-dark{
+    .fonts-dark {
         color: var(--primary-text-color);
     }
 
-    .fonts-light{
+    .fonts-light {
         color: var(--secundaire-text-color);
     }
 
-    .highleight-text{
+    .highleight-text {
         color: var(--primare-heighleight-color);
     }
 
 
     /* BUTTONS */
-    
+
     /* primary */
-    button{
+    button {
         padding: var(--primary-button-padding);
         border-radius: var(--primary-button-radius);
         border: var(--primary-button-border);
@@ -107,12 +113,12 @@ body{
 
     /* secondaire */
 
-    .button-light{
+    .button-light {
         background-color: var(--secundaire-button-color);
         color: var(--primary-text-color);
     }
 
-    .input-button{
+    .input-button {
         padding: var(--secundaire-button-padding);
         border-radius: var(--secundaire-button-radius);
         border: var(--primary-button-border);
@@ -121,11 +127,10 @@ body{
     }
 
     /* BACKGROUND DARK/LIGHT MODE*/
-    .body-light-mode{
+    .body-light-mode {
         background-color: var(--primary-background-color);
     }
 
-    .body-dark-mode{
+    .body-dark-mode {
         background-color: var(--secundaire-background-color);
     }
-}
