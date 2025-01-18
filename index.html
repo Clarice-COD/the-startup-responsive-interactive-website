@@ -1,99 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="ride-out.css">
+    <!-- <link rel="stylesheet" href="ride-out.css"> -->
+     <link rel="stylesheet" href="ride-out.css">
     <link rel="stylesheet" href="index.css">
-    <title>Route planner</title>
+    <title>Screen - Ride Out</title>
 </head>
-
-<body class="body-light-mode">
-    <nav>
-        <a href="#"><img src="assets/logo.svg" alt="Ride Out"></a>
-    </nav>
-
-    <header class="header-index">
-        <h1>Rides from ride out</h1>
-        <h2>Discover all our routes on <span class="highleight-text">komoot</span></h2>
+<body class="body-dark-mode">
+    <header>
+        <section>
+            <h1>Rides from ride out</h1>
+            <h2>Discover all our routes on <span class="highleight-text">komoot</span></h2>
+        </section>
     </header>
 
     <main>
-        <ul>
-            <li>
-                <img src="assets/cyclist-1.jpg" alt="">
-                <div class="route-1">
-                    <section class="route-1-info">
+        <article class="route-1">
+            <img src="assets/cyclist-1.jpg" alt="">
+                <section class="route-1-info">
                         <h3>Semi Gravel to Hilversum</h3>
                         <dl>
                             <dt><img src="assets/icon-gravel.svg" alt="Terrein"></dt>
                             <dd>GRAVEL</dd>
-
+    
                             <dt><img src="assets/icon-afstand.svg" alt="Afstand"></dt>
                             <dd>84,4km</dd>
-
+    
                             <dt><img src="assets/icon-tijd.svg" alt="Tijdsduur"></dt>
                             <dd>04:11</dd>
-
+    
                             <dt><img src="assets/icon-stijging.svg" alt="Stijging/daling"></dt>
                             <dd>150</dd>
                         </dl>
-                    </section>
-                    <img src="assets/route-1.svg" alt="">
-                </div>
-            </li>
+                        <img src="assets/route-1.svg" alt="">
+                </section>
+        </article>
 
-            <li>
-                <img src="assets/cyclist-2.jpg" alt="">
-                <div class="route-1">
-                    <section class="route-2-info">
+        <article class="route-2">
+            <img src="assets/cyclist-2.jpg" alt="">
+                <section class="route-2-info">
                         <h3>Dunes & 't Kopje van Bloemendaal</h3>
-
                         <dl>
                             <dt><img src="assets/icon-gravel.svg" alt="Terrein"></dt>
                             <dd>ROAD</dd>
-
+    
                             <dt><img src="assets/icon-afstand.svg" alt="Afstand"></dt>
                             <dd>91,2km</dd>
-
+    
                             <dt><img src="assets/icon-tijd.svg" alt="Tijdsduur"></dt>
                             <dd>04:02</dd>
-
+    
                             <dt><img src="assets/icon-stijging.svg" alt="Stijging/daling"></dt>
                             <dd>210</dd>
                         </dl>
-                    </section>
-                    <img src="assets/route-2.svg" alt="">
-                </div>
-            </li>
+                        <img src="assets/route-2.svg" alt="">
+                </section>
+        </article>
 
-            <li>
-                <img src="assets/cyclist-3.jpg" alt="">
-                <div class="route-1">
+        <article class="route-3">
+            <img src="assets/cyclist-3.jpg" alt="">
                     <section class="route-3-info">
                         <h3>Ronde Hoep from Ride Out</h3>
                         <dl>
                             <dt><img src="assets/icon-gravel.svg" alt="Terrein"></dt>
                             <dd>Gravel</dd>
-
+    
                             <dt><img src="assets/icon-afstand.svg" alt="Afstand"></dt>
                             <dd>84,4km</dd>
-
+    
                             <dt><img src="assets/icon-tijd.svg" alt="Tijdsduur"></dt>
                             <dd>04:11</dd>
-
+    
                             <dt><img src="assets/icon-stijging.svg" alt="Stijging/daling"></dt>
                             <dd>150</dd>
                         </dl>
-                    </section>
-                    <img src="assets/route-3.svg" alt="">
-                </div>
-            </li>
-        </ul>
-        <button id="prev" alt="previous">&#8810</button>
-        <button id="next" alt="next">&#8811</button>
-    </main>
-</body>
+                        <img src="assets/route-3.svg" alt="">
+                </section>
+        </article>
 
+        <div>
+            <p>Scan the code to see all routes</p>
+        </div>
+    </main>
+
+    <footer class="footer-route-planner">
+        <a href="route-planner.html"><img src="assets/qr.svg" alt="Qr-code">Discover all our Road, Gravel, MBT and Urban routes</a>
+    </footer>
+</body>
 </html>
