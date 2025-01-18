@@ -1,52 +1,19 @@
-/* INDEX */
-.header-index{
+header{
     display: flex;
     flex-direction: column;
 }
 
-.main-index{
+.route-1{
+    display: flex;
+    flex-direction: row;
+}
+
+.route-1-info{
     display: flex;
     flex-direction: column;
 }
 
-.card-parent-index{
+dl{
     display: flex;
     flex-direction: row;
 }
-
-.card-child-index{
-    display: flex;
-    flex-direction: column;
-}
-
-ul{
-    display: flex;
-    flex-direction: row;
-}
-
-/* ROUTE PLANNER */
-.header-route-planner{
-    display: flex;
-    flex-direction: column;
-}
-
-.main-route-planner{
-    display: flex;
-    flex-direction: row;
-}
-
-.card-parent-route-planner{
-    display: flex;
-    flex-direction: row;
-}
-
-.card-child-route-planner{
-    display: flex;
-    flex-direction: column;
-}
-
-.footer-route-planner{
-    display: flex;
-    flex-direction: row;
-}
-
