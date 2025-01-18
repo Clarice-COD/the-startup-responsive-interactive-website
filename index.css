@@ -105,6 +105,10 @@ main{
 /* Tablet */
 @media (min-width: 426px) {
 
+    body{
+        margin: 3rem;
+    }
+
     .slider{
         width: 34rem;
     }
@@ -131,4 +135,38 @@ main{
         max-width: 24rem;
     }
 
+}
+
+/* Laptop */
+@media (min-width: 769px) {
+
+    body{
+        margin: 4rem;
+    }
+
+    .slider{
+        width: 50rem;
+    }
+    
+    .slider ul li img{
+        width: 50rem;
+        height: 22rem;
+    }
+
+    .route-img{
+        width: 100%;
+        height: auto;
+    }
+
+    h1{
+        font-size: 7em;
+        line-height: 105px;
+        max-width: 46rem;
+    }
+
+    h2{
+        font-size: 3em;
+        line-height: 50px;
+        max-width: 34rem;
+    }
 }
