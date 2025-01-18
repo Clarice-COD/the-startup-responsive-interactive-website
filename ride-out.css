@@ -103,13 +103,13 @@ body {
     /* BUTTONS */
 
     /* primary */
-    button {
+    /* button {
         padding: var(--primary-button-padding);
         border-radius: var(--primary-button-radius);
         border: var(--primary-button-border);
         background-color: var(--primary-button-color);
         color: var(--secundaire-text-color);
-    }
+    } */
 
     /* secondaire */
 

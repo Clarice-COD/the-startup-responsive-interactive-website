@@ -45,6 +45,7 @@ li{
     height: 24rem;
     margin: auto;
     overflow: hidden; /* everything outside the given with and height will not be hidden */
+    display: flex;
 }
 
 .slider ul{
@@ -72,4 +73,29 @@ li{
 img{
     object-fit: cover;
     height: 100%;
+}
+
+button{
+    width: 3rem;
+    height: 7rem;
+}
+
+.next{
+    position: absolute;
+    border-radius: 0px 10px 10px 0px;
+    bottom: 0;
+    right: 0;
+}
+
+.prev{
+    position: absolute;
+    border-radius: 10px 0px 0px 10px;
+    top: 0;
+    left: 0;
+    margin-right: 0px;
+}
+
+main{
+    display: flex;
+     flex-direction: row;
 }
