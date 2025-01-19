@@ -116,7 +116,33 @@ body{
     }
 
 
+/* RESPONSIVE */
 
+
+    /* TABLET */
+
+        @media (min-width: 426px) {
+
+            h1{
+                font-size: 4em;
+                line-height: 60px;
+                max-width: 30rem;
+            }
+        
+            h2{
+                font-size: 2em;
+                line-height: 30px;
+                max-width: 24rem;
+            }
+
+            .button--previous {
+                left: 4rem;
+            }
+
+            .button--next {
+                right: 4rem;
+            }
+        }
 
     
 
