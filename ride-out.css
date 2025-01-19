@@ -25,13 +25,13 @@ body {
 
     --line-height-h1: 46px;
     --line-height-h2: 20px;
-    --line-height-h3: 48px;
+    --line-height-h3: 20px;
     --line-height-text: 27px;
 
     --max-width-text: 36rem;
     --max-width-h1: 20rem;
     --max-width-h2: 14rem;
-    --max-width-h3: 20rem;
+    --max-width-h3: 50rem;
 
     /* BUTTONS */
     --primary-button-padding: 12px;
@@ -97,6 +97,10 @@ body {
 
     .highleight-text {
         color: var(--primary-heighleight-color);
+    }
+
+    dl{
+        font-size: var(--font-size-text-s);
     }
 
 

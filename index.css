@@ -8,101 +8,138 @@ body{
     margin: 1.5rem;
 }
 
-header{
-    display: flex;
-    flex-direction: column;
-}
 
-/* .route-1{
-    display: flex;
-    flex-direction: row;
-}
+/* HEADER */
 
-.route-1-info{
-    display: flex;
-    flex-direction: column;
-}
+    header{
+        display: flex;
+        flex-direction: column;
+    }
 
-dl{
-    display: flex;
-    flex-direction: row;
-}
 
-li{
-    position: relative;
-}
+/* MAIN */
 
-.route-1{
-    position: absolute;
-    z-index: 1;
-} */
+    /* SLIDER */
 
-/* SLIDER */
+    .slider-wrapper {
+        position: relative;
+      }
 
-.slider-wrapper {
-    position: relative;
-  }
-
-.slider {
+    .slider {
     display: flex;
     gap: 8px;
     padding: 16px;
-  
+    
     list-style: none;
     overflow-x: scroll;
     scroll-snap-type: x mandatory; /* Takes care of when scrolling and you let go, the scroll will automaticly move to get the moost nearby element in full screen */
-  }
 
-  .item {
+    scrollbar-width: none; /* Hide scrollbar in Firefox */
+    -ms-overflow-style: none; /* Hide scrollbar in IE and Edge */
+    }
+
+    .slider::-webkit-scrollbar {
+        display: none; /* Hide scrollbar in webkit */
+    }
+
+    .item {
+    position: relative;
     flex-shrink: 0; /* Takes care of the item to not shrink to fit more elements */
     width: 80vw; /* vh stands for viewport width, it's based on the width of the viewport (viewport is the size of the screen. 1vh stands for 1% and 100vh stands for 100% */
     height: 50vh; /* vh stands for viewport height, it's based on the height of the viewport (viewport is the size of the screen. 1vh stands for 1% and 100vh stands for 100% */
     
     background-color: #aed328;
-  
+    
     scroll-snap-align: center;
-  }
+    }
 
-  .content {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100%;
-  }
+        /* SLIDER INFO DETAILS */
+        
+        .content {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100%;
+        }
 
-  .slider {
-    scrollbar-width: none; /* Hide scrollbar in Firefox */
-    -ms-overflow-style: none; /* Hide scrollbar in IE and Edge */
-  }
+        .slider-img {
+            object-fit: cover;
+            height: 100%;
+            width: 80vw;
+            height: 50vh;
+        }
 
-  .slider::-webkit-scrollbar {
-    display: none; /* Hide scrollbar in webkit */
-  }
+        .route-1 {
+            display: flex;
+            flex-direction: row;
+            position: absolute;
+            z-index: 1;
+        }
 
-  .slider-img{
-    object-fit: cover;
-    height: 100%;
-    width: 80vw;
-    height: 50vh;
-  }
+        .route-1-info{
+            display: flex;
+            flex-direction: column;
+        }
+
+        h3 {
+            position: absolute;
+        }
+
+        dl {
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            display: flex;
+            flex-direction: row;
+            color: red;
+        }
+
+
+    /* SLIDER BUTTONS */
+    
+    .button {
+        position: absolute;
+        top: 50%;
+        width: 3rem;
+        height: 3rem;
+        border: none;
+        border-radius: 5px;
+    }
+    
+    .button--previous {
+        left: 1.5rem;
+        transform: rotate(180deg);
+    }
+    
+    .button--next {
+        right: 1.5rem;
+    }
+
+
+
+
+    
+
+
+
+
+
+/* li{
+    position: relative;
+} */
+
+/* SLIDER */
+
+  
+
+  
+
+
+  
 
 
   /* buttons */
-  .button {
-    position: absolute;
-    top: 50%;
-    width: 3rem;
-    height: 3rem;
-  }
 
-  .button--previous {
-    left: 1.5rem;
-    transform: rotate(180deg);
-  }
-
-  .button--next {
-    right: 1.5rem;
-  }
 
 
 /* slider */
