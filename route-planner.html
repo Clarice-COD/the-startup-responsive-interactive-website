@@ -20,12 +20,13 @@
     </header>
 
     <main>
-        <button id="prev" alt="previous">&#8810</button>
-        <div class="slider">
-        <ul class="sliderWrap">
-            <li>
-                <img class="route-img" src="assets/cyclist-1.jpg" alt="">
-                <div class="route-1">
+
+        <div class="slider-wrapper">
+        <ul class="slider">
+            <li class="item">
+                <div class="content">
+                <img class="slider-img" src="assets/cyclist-1.jpg" alt="">
+                <!-- <div class="route-1">
                     <section class="route-1-info">
                         <h3>Semi Gravel to Hilversum</h3>
                         <dl>
@@ -43,12 +44,14 @@
                         </dl>
                     </section>
                     <img src="assets/route-1.svg" alt="">
+                    </div> -->
                 </div>
             </li>
 
-            <li>
-                <img src="assets/cyclist-2.jpg" alt="">
-                <div class="route-1">
+            <li class="item">
+                <div class="content">
+                <img class="slider-img" src="assets/cyclist-2.jpg" alt="">
+                <!-- <div class="route-1">
                     <section class="route-2-info">
                         <h3>Dunes & 't Kopje van Bloemendaal</h3>
 
@@ -67,35 +70,40 @@
                         </dl>
                     </section>
                     <img src="assets/route-2.svg" alt="">
+                </div> -->
                 </div>
             </li>
 
-            <li>
-                <img src="assets/cyclist-3.jpg" alt="">
-                <div class="route-1">
-                    <section class="route-3-info">
-                        <h3>Ronde Hoep from Ride Out</h3>
-                        <dl>
-                            <dt><img src="assets/icon-gravel.svg" alt="Terrein"></dt>
-                            <dd>Gravel</dd>
+            <li class="item">
+                <div class="content">
+                    <img class="slider-img" src="assets/cyclist-3.jpg" alt="">
+                    <!-- <div class="route-1">
+                        <section class="route-3-info">
+                            <h3>Ronde Hoep from Ride Out</h3>
+                            <dl>
+                                <dt><img src="assets/icon-gravel.svg" alt="Terrein"></dt>
+                                <dd>Gravel</dd>
 
-                            <dt><img src="assets/icon-afstand.svg" alt="Afstand"></dt>
-                            <dd>84,4km</dd>
+                                <dt><img src="assets/icon-afstand.svg" alt="Afstand"></dt>
+                                <dd>84,4km</dd>
 
-                            <dt><img src="assets/icon-tijd.svg" alt="Tijdsduur"></dt>
-                            <dd>04:11</dd>
+                                <dt><img src="assets/icon-tijd.svg" alt="Tijdsduur"></dt>
+                                <dd>04:11</dd>
 
-                            <dt><img src="assets/icon-stijging.svg" alt="Stijging/daling"></dt>
-                            <dd>150</dd>
-                        </dl>
-                    </section>
+                                <dt><img src="assets/icon-stijging.svg" alt="Stijging/daling"></dt>
+                                <dd>150</dd>
+                            </dl>
+                        </section>
                     <img src="assets/route-3.svg" alt="">
-                </div>
+                </div> -->
+            </div>
             </li>
         </ul>
+        <button onclick="handleClick('previous')" class="button button--previous" type="button">➜</button>
+        <button onclick="handleClick('next')" class="button button--next" type="button">➜</button>
     </div>
-        <button id="next" alt="next">&#8811</button>
+
     </main>
 </body>
-
+<script src="index.js"></script>
 </html>
