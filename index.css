@@ -51,6 +51,7 @@ body{
     background-color: #aed328;
     
     scroll-snap-align: center;
+    overflow: hidden; /* everything outside the given with and height will not be hidden */
     }
 
         /* SLIDER INFO DETAILS */
@@ -92,6 +93,11 @@ body{
             display: flex;
             flex-direction: row;
             color: red;
+        }
+
+        dd {
+            margin-left: 6px;
+            margin-right: 16px;
         }
 
 
