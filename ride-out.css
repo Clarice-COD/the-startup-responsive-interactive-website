@@ -13,7 +13,7 @@ body {
     /* FONTS */
     --font-size-h1: 3em;
     --font-size-h2: 1.3em;
-    --font-size-h3: 1.2em;
+    --font-size-h3: 1.6em;
     --font-size-text-l: 24px;
     --font-size-text-m: 18px;
     --font-size-text-s: 16px;
@@ -25,13 +25,13 @@ body {
 
     --line-height-h1: 46px;
     --line-height-h2: 20px;
-    --line-height-h3: 20px;
+    --line-height-h3: 30px;
     --line-height-text: 27px;
 
     --max-width-text: 36rem;
     --max-width-h1: 20rem;
     --max-width-h2: 14rem;
-    --max-width-h3: 50rem;
+    --max-width-h3: 12rem;
 
     /* BUTTONS */
     --primary-button-padding: 12px;

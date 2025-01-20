@@ -18,9 +18,7 @@ body {
     }
 }
 
-
 /* HEADER */
-
 header {
     display: flex;
     flex-direction: column;
@@ -144,29 +142,40 @@ h2 {
     }
 }
 
-.route-1 {
-    display: flex;
-    flex-direction: row;
+.slider-elements {
     position: absolute;
-    z-index: 1;
-}
-
-.route-1-info {
+    bottom: 20%;
+    left: 5%;
+    
+    /* FLEX / GRID */
     display: flex;
     flex-direction: column;
 }
 
+/* Grid elements */
 h3 {
-    position: absolute;
+    margin-bottom: 0px;
+   align-self: flex-start;
+   color: var(--secundaire-text-color);
+}
+
+.imgRoute {
+    display: none;
 }
 
 dl {
-    position: absolute;
-    left: 0;
-    bottom: 0;
     display: flex;
     flex-direction: row;
-    color: red;
+    flex-wrap: wrap;
+    width: 11.9rem;
+    color: var(--secundaire-text-color);
+}
+
+.slide-number {
+    position: absolute;
+    bottom: 5%;
+    text-align: middle;
+    color: var(--secundaire-text-color);
 }
 
 dd {
@@ -179,7 +188,7 @@ dd {
 
 .button {
     position: absolute;
-    top: 50%;
+    bottom: 10%;
     width: 3rem;
     height: 3rem;
     border: none;
