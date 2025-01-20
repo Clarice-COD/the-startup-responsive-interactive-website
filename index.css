@@ -1,4 +1,4 @@
-body{
+body {
     font-family: var(--font-family);
     position: absolute;
     top: 0;
@@ -6,226 +6,233 @@ body{
     bottom: 0;
     left: 0;
     margin: 1.5rem;
+
+    /* Tablet */
+    @media (min-width: 426px) {
+        margin: 2rem;
+    }
+
+    /* Laptop */
+    @media (min-width: 769px) {
+        margin: 5rem;
+    }
 }
 
 
 /* HEADER */
 
-    header{
-        display: flex;
-        flex-direction: column;
+header {
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    /* Tablet */
+    @media (min-width: 426px) {
+        font-size: 4em;
+        line-height: 60px;
+        max-width: 30rem;
     }
+
+    /* Laptop */
+    @media (min-width: 769px) {
+        font-size: 6em;
+        line-height: 90px;
+        max-width: 36rem;
+    }
+}
+
+h2 {
+     /* Tablet */
+     @media (min-width: 426px) {
+        font-size: 2em;
+        line-height: 30px;
+        max-width: 24rem; 
+    }
+
+    /* Laptop */
+    @media (min-width: 769px) {
+        font-size: 3em;
+        line-height: 50px;
+        max-width: 30rem;
+    }
+}
 
 
 /* MAIN */
 
-    /* SLIDER */
+/* SLIDER */
 
-    .slider-wrapper {
-        position: relative;
-      }
+.slider-wrapper {
+    position: relative;
+}
 
-    .slider {
+.slider {
     display: flex;
     gap: 8px;
     padding: 16px;
-    
+
     list-style: none;
     overflow-x: scroll;
-    scroll-snap-type: x mandatory; /* Takes care of when scrolling and you let go, the scroll will automaticly move to get the moost nearby element in full screen */
+    scroll-snap-type: x mandatory;
+    /* Takes care of when scrolling and you let go, the scroll will automaticly move to get the moost nearby element in full screen */
 
-    scrollbar-width: none; /* Hide scrollbar in Firefox */
-    -ms-overflow-style: none; /* Hide scrollbar in IE and Edge */
-    }
+    scrollbar-width: none;
+    /* Hide scrollbar in Firefox */
+    -ms-overflow-style: none;
+    /* Hide scrollbar in IE and Edge */
+}
 
-    .slider::-webkit-scrollbar {
-        display: none; /* Hide scrollbar in webkit */
-    }
+.slider::-webkit-scrollbar {
+    display: none;
+    /* Hide scrollbar in webkit */
+}
 
-    .item {
+.item {
     position: relative;
-    flex-shrink: 0; /* Takes care of the item to not shrink to fit more elements */
-    width: 80vw; /* vh stands for viewport width, it's based on the width of the viewport (viewport is the size of the screen. 1vh stands for 1% and 100vh stands for 100% */
-    height: 50vh; /* vh stands for viewport height, it's based on the height of the viewport (viewport is the size of the screen. 1vh stands for 1% and 100vh stands for 100% */
-    
+    flex-shrink: 0;
+    /* Takes care of the item to not shrink to fit more elements */
+    width: 80vw;
+    /* vh stands for viewport width, it's based on the width of the viewport (viewport is the size of the screen. 1vh stands for 1% and 100vh stands for 100% */
+    height: 50vh;
+    /* vh stands for viewport height, it's based on the height of the viewport (viewport is the size of the screen. 1vh stands for 1% and 100vh stands for 100% */
+
     background-color: #aed328;
-    
+
     scroll-snap-align: center;
-    overflow: hidden; /* everything outside the given with and height will not be hidden */
+    overflow: hidden;
+    /* everything outside the given with and height will not be hidden */
+
+    /* Laptop */
+    @media (min-width: 769px) {
+        width: 60vw;
+        height: 50vh;
     }
 
-        /* SLIDER INFO DETAILS */
-        
-        .content {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            height: 100%;
-        }
-
-        .slider-img {
-            object-fit: cover;
-            height: 100%;
-            width: 80vw;
-            height: 50vh;
-        }
-
-        .route-1 {
-            display: flex;
-            flex-direction: row;
-            position: absolute;
-            z-index: 1;
-        }
-
-        .route-1-info{
-            display: flex;
-            flex-direction: column;
-        }
-
-        h3 {
-            position: absolute;
-        }
-
-        dl {
-            position: absolute;
-            left: 0;
-            bottom: 0;
-            display: flex;
-            flex-direction: row;
-            color: red;
-        }
-
-        dd {
-            margin-left: 6px;
-            margin-right: 16px;
-        }
-
-
-    /* SLIDER BUTTONS */
-    
-    .button {
-        position: absolute;
-        top: 50%;
-        width: 3rem;
-        height: 3rem;
-        border: none;
-        border-radius: 5px;
+    /* Laptop L */
+    @media (min-width: 1025px) {
+        width: 60vw;
+        height: 80vh;
     }
-    
-    .button--previous {
-        left: 1.5rem;
-        transform: rotate(180deg);
-    }
-    
-    .button--next {
-        right: 1.5rem;
+}
+
+/* SLIDER INFO DETAILS */
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.slider-img {
+    object-fit: cover;
+    height: 100%;
+    width: 80vw;
+    height: 50vh;
+
+    /* Laptop */
+    @media (min-width: 769px) {
+        width: 60vw;
+        height: 50vh;
     }
 
+    /* Laptop L */
+    @media (min-width: 1025px) {
+        width: 60vw;
+        height: 80vh;
+    }
+}
 
-/* RESPONSIVE */
+.route-1 {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    z-index: 1;
+}
+
+.route-1-info {
+    display: flex;
+    flex-direction: column;
+}
+
+h3 {
+    position: absolute;
+}
+
+dl {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: row;
+    color: red;
+}
+
+dd {
+    margin-left: 6px;
+    margin-right: 16px;
+}
 
 
-    /* TABLET */
+/* SLIDER BUTTONS */
 
-        @media (min-width: 426px) {
+.button {
+    position: absolute;
+    top: 50%;
+    width: 3rem;
+    height: 3rem;
+    border: none;
+    border-radius: 5px;
 
-            body{
-                margin: 2rem;
-            }
+    /* Laptop L */
+    @media (min-width: 1025px) {
+        width: 4.5rem;
+        height: 4.5rem;
+    }
+}
 
-            h1{
-                font-size: 4em;
-                line-height: 60px;
-                max-width: 30rem;
-            }
-        
-            h2{
-                font-size: 2em;
-                line-height: 30px;
-                max-width: 24rem;
-            }
+.button--previous {
+    left: 1.5rem;
+    transform: rotate(180deg);
 
-            .button--previous {
-                left: 4rem;
-            }
+    /* Tablet */
+    @media (min-width: 426px) {
+        left: 4rem;
+    }
 
-            .button--next {
-                right: 4rem;
-            }
-        }
+    /* Laptop */
+    @media (min-width: 769px) {
+        left: 12rem;
+    }
 
-    /* LAPTOP */
+    /* Laptop L */
+    @media (min-width: 1025px) {
+        left: 14rem;
+    }
+}
 
-        @media (min-width: 769px) {
+.button--next {
+    right: 1.5rem;
 
-            body{
-                margin: 3rem;
-            }
+    /* Tablet */
+    @media (min-width: 426px) {
+        right: 4rem;
+    }
 
-            h1{
-                font-size: 6em;
-                line-height: 90px;
-                max-width: 36rem;
-            }
-        
-            h2{
-                font-size: 3em;
-                line-height: 50px;
-                max-width: 30rem;
-            }
+    /* Laptop */
+    @media (min-width: 769px) {
+        right: 12rem;
+    }
 
-            .button--previous {
-                left: 12rem;
-            }
+    /* Laptop L */
+    @media (min-width: 1025px) {
+        right: 14rem;
+    }
+}
 
-            .button--next {
-                right: 12rem;
-            }
 
-            .item {
-                width: 60vw; /* vh stands for viewport width, it's based on the width of the viewport (viewport is the size of the screen. 1vh stands for 1% and 100vh stands for 100% */
-                height: 50vh; /* vh stands for viewport height, it's based on the height of the viewport (viewport is the size of the screen. 1vh stands for 1% and 100vh stands for 100% */
-            }
 
-            .slider-img {
-                width: 60vw;
-                height: 50vh;
-            }
-        }
-
-    /* LAPTOP L */
-
-        @media (min-width: 1025px) {
-
-            body{
-                margin: 5rem;
-            }
-
-            .button {
-                width: 4.5rem;
-                height: 4.5rem;
-            }
-
-            .button--previous {
-                left: 14rem;
-            }
-
-            .button--next {
-                right: 14rem;
-            }
-
-            .item {
-                width: 60vw; /* vh stands for viewport width, it's based on the width of the viewport (viewport is the size of the screen. 1vh stands for 1% and 100vh stands for 100% */
-                height: 80vh; /* vh stands for viewport height, it's based on the height of the viewport (viewport is the size of the screen. 1vh stands for 1% and 100vh stands for 100% */
-            }
-
-            .slider-img {
-                width: 60vw;
-                height: 80vh;
-            }
-        }
-
-    
 
 
 
@@ -237,15 +244,15 @@ body{
 
 /* SLIDER */
 
-  
-
-  
 
 
-  
 
 
-  /* buttons */
+
+
+
+
+/* buttons */
 
 
 
@@ -309,75 +316,4 @@ button{
 main{
     display: flex;
      flex-direction: row;
-} */
-
-/* Responsive */
-
-/* Tablet */
-/* @media (min-width: 426px) {
-
-    body{
-        margin: 3rem;
-    }
-
-    .slider{
-        width: 34rem;
-    }
-    
-    .slider ul li img{
-        width: 34rem;
-        height: 22rem;
-    }
-
-    .route-img{
-        width: 100%;
-        height: auto;
-    }
-
-    h1{
-        font-size: 5em;
-        line-height: 80px;
-        max-width: 36rem;
-    }
-
-    h2{
-        font-size: 2.5em;
-        line-height: 40px;
-        max-width: 24rem;
-    }
-
-} */
-
-/* Laptop */
-/* @media (min-width: 769px) {
-
-    body{
-        margin: 4rem;
-    }
-
-    .slider{
-        width: 50rem;
-    }
-    
-    .slider ul li img{
-        width: 50rem;
-        height: 22rem;
-    }
-
-    .route-img{
-        width: 100%;
-        height: auto;
-    }
-
-    h1{
-        font-size: 7em;
-        line-height: 105px;
-        max-width: 46rem;
-    }
-
-    h2{
-        font-size: 3em;
-        line-height: 50px;
-        max-width: 34rem;
-    }
 } */
