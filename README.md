@@ -21,7 +21,7 @@ Voor dit project worden twee pagina’s opgeleverd:
 - Toont een overzicht van de fietsroutes met aanvullende informatie
 - Er is een Figma-bestand beschikbaar als basis voor het ontwerp
 
-Zie meer informatie in de [briefing](https://github.com/Clarice-COD/the-startup-responsive-interactive-website/issues/2)
+Zie meer informatie in de [debriefing](https://github.com/Clarice-COD/the-startup-responsive-interactive-website/issues/2)
 
 ### De huisstijl van Ride Out
 [Figma bestand](https://www.figma.com/design/D2uZCMGovzNcc8JzulmwMi/I-love-web?node-id=0-1&p=f&m=dev)
