@@ -43,103 +43,86 @@ body {
 }
 
 /* FONTS */
+h1, h2, h3, p {
+    font-family: var(--font-family);
+}
 
-    h1,
-    h2,
-    h3,
-    p {
-        font-family: var(--font-family);
-    }
+h1 {
+    font-size: var(--font-size-h1);
+    line-height: var(--line-height-h1);
+    max-width: var(--max-width-h1);
+}
 
-    h1 {
-        font-size: var(--font-size-h1);
-        line-height: var(--line-height-h1);
-        max-width: var(--max-width-h1);
-    }
+h2 {
+    font-size: var(--font-size-h2);
+    line-height: var(--line-height-h2);
+    max-width: var(--max-width-h2);
+}
 
-    h2 {
-        font-size: var(--font-size-h2);
-        line-height: var(--line-height-h2);
-        max-width: var(--max-width-h2);
-    }
+h3 {
+    font-size: var(--font-size-h3);
+    line-height: var(--line-height-h3);
+    max-width: var(--max-width-h3);
+}
 
-    h3 {
-        font-size: var(--font-size-h3);
-        line-height: var(--line-height-h3);
-        max-width: var(--max-width-h3);
-    }
+p {
+    font-size: var(--font-size-text-m);
+    font-weight: var(--font-weight-text);
+    line-height: var(--line-height-text);
+    max-width: var(--max-width-text);
+}
 
-    p {
-        font-size: var(--font-size-text-m);
-        font-weight: var(--font-weight-text);
-        line-height: var(--line-height-text);
-        max-width: var(--max-width-text);
-    }
+.text-large {
+    font-size: var(--font-size-text-l);
+}
 
-    .text-large {
-        font-size: var(--font-size-text-l);
-    }
+.text-mid {
+    font-size: var(--font-size-text-m);
+}
 
-    .text-mid {
-        font-size: var(--font-size-text-m);
-    }
+.text-small {
+    font-size: var(--font-size-text-s);
+}
 
-    .text-small {
-        font-size: var(--font-size-text-s);
-    }
+.fonts-dark {
+    color: var(--primary-text-color);
+}
 
-    .fonts-dark {
-        color: var(--primary-text-color);
-    }
+.fonts-light {
+    color: var(--secundaire-text-color);
+}
 
-    .fonts-light {
-        color: var(--secundaire-text-color);
-    }
+.highleight-text-light {
+    color: var(--primary-heighleight-color);
+}
 
-    .highleight-text-light {
-        color: var(--primary-heighleight-color);
-    }
+.highleight-text-dark {
+    color: var(--secundaire-heighleight-color);
+}
 
-    .highleight-text-dark {
-        color: var(--secundaire-heighleight-color);
-    }
+dl{
+    font-size: var(--font-size-text-s);
+}
 
-    dl{
-        font-size: var(--font-size-text-s);
-    }
+/* BUTTONS */
+.button-light {
+    background-color: var(--secundaire-button-color);
+    color: var(--primary-text-color);
+}
 
+.input-button {
+    padding: var(--secundaire-button-padding);
+    border-radius: var(--secundaire-button-radius);
+    border: var(--primary-button-border);
+    background-color: var(--primary-button-color);
+    color: var(--secundaire-text-color);
+}
 
-    /* BUTTONS */
+/* BODY BACKGROUND */
+.body-light-mode {
+    background-color: var(--primary-background-color);
+}
 
-    /* primary */
-    /* button {
-        padding: var(--primary-button-padding);
-        border-radius: var(--primary-button-radius);
-        border: var(--primary-button-border);
-        background-color: var(--primary-button-color);
-        color: var(--secundaire-text-color);
-    } */
-
-    /* secondaire */
-
-    .button-light {
-        background-color: var(--secundaire-button-color);
-        color: var(--primary-text-color);
-    }
-
-    .input-button {
-        padding: var(--secundaire-button-padding);
-        border-radius: var(--secundaire-button-radius);
-        border: var(--primary-button-border);
-        background-color: var(--primary-button-color);
-        color: var(--secundaire-text-color);
-    }
-
-    /* BACKGROUND DARK/LIGHT MODE*/
-    .body-light-mode {
-        background-color: var(--primary-background-color);
-    }
-
-    .body-dark-mode {
-        background-color: var(--secundaire-background-color);
-    }
+.body-dark-mode {
+    background-color: var(--secundaire-background-color);
+}
