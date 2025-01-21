@@ -31,11 +31,18 @@ Kleurgebruik:
 <img width="659" alt="Scherm­afbeelding 2025-01-21 om 22 52 54" src="https://github.com/user-attachments/assets/8fcccea0-ea71-4996-83dc-20a7e670d5df" />
 
 ### Responsive
-mobiel/tablet/laptop/laptop L:
+Ik heb de website responsive gemaakt met behulp van @media. 
+
+Formaten waarop ik heb gefocust
+- mobiel
+- tablet
+- laptop
+- laptop L
 
 <img width="828" alt="Scherm­afbeelding 2025-01-21 om 23 08 19" src="https://github.com/user-attachments/assets/2a947121-7704-4944-b636-d3dd20d28ad3" />
 
-1080 x 1920:
+
+Op vraag van de klant heb ik de eerste pagina spiciek op het formaat 1080 x 1920 gemaakt. Dit is het formaat van een scherm die in de winkel staat.
 
 <img width="325" alt="Scherm­afbeelding 2025-01-21 om 23 09 50" src="https://github.com/user-attachments/assets/4ffd4e49-7136-48b7-a2d1-7db74a2362f3" />
 
