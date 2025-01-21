@@ -14,6 +14,16 @@ Kleurgebruik:
 
 <img width="659" alt="Scherm­afbeelding 2025-01-21 om 22 52 54" src="https://github.com/user-attachments/assets/8fcccea0-ea71-4996-83dc-20a7e670d5df" />
 
+### Responsive
+mobiel/tablet/laptop/laptop L:
+
+<img width="828" alt="Scherm­afbeelding 2025-01-21 om 23 08 19" src="https://github.com/user-attachments/assets/2a947121-7704-4944-b636-d3dd20d28ad3" />
+
+1080 x 1920:
+
+<img width="325" alt="Scherm­afbeelding 2025-01-21 om 23 09 50" src="https://github.com/user-attachments/assets/4ffd4e49-7136-48b7-a2d1-7db74a2362f3" />
+
+
 <!-- In de Beschrijving staat hoe je project er uit ziet, hoe het werkt en wat je er mee kan. -->
 <!-- Voeg een mooie poster visual toe 📸 -->
 <!-- Voeg een link toe naar Github Pages 🌐-->
