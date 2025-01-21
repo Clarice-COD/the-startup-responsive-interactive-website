@@ -45,6 +45,21 @@ mobiel/tablet/laptop/laptop L:
 <!-- Voeg een link toe naar Github Pages 🌐-->
 
 ## Kenmerken
+
+### HTML structuur
+Code kan al snel onoverzichtelijk ogen. Vandaar het belang om code goed gestructureerd te onderhouden. Zo werk ik veel met ruimtes tussen de codes om groepen te vormen. Elke keer wanneer er elementen samen tot een groep behoren verschuif ik het een stuk naar rechts.
+https://github.com/Clarice-COD/the-startup-responsive-interactive-website/blob/db60b6f66d7ee584fa91a49d60a81e80a3403ff1/index.html#L45-L67
+
+### CSS structuur
+De volgorde van de CSS is gebaseerd op de volgorde van de HTML.
+https://github.com/Clarice-COD/the-startup-responsive-interactive-website/blob/db60b6f66d7ee584fa91a49d60a81e80a3403ff1/index.html#L19-L20
+https://github.com/Clarice-COD/the-startup-responsive-interactive-website/blob/db60b6f66d7ee584fa91a49d60a81e80a3403ff1/index.css#L69-L87
+
+
+### Nesten van @media
+Het nesten van @media bestaat nog niet zo lang, maar is wel mogelijk. Inplaats van al dat gescroll staat nu alle informatie die bij elkaar horen samen in hetzelfde vlak.
+https://github.com/Clarice-COD/the-startup-responsive-interactive-website/blob/db60b6f66d7ee584fa91a49d60a81e80a3403ff1/index.css#L289-L307
+
 <!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met JS gedaan en hoe? -->
 
 ## Bronnen
