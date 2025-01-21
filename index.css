@@ -90,6 +90,11 @@ h2 {
     /* Hide scrollbar in Firefox */
     -ms-overflow-style: none;
     /* Hide scrollbar in IE and Edge */
+
+    /* Screen shop */
+    @media (min-width: 1080px), (min-height: 1920px) {
+        gap: 30px;
+    }
 }
 
 .slider::-webkit-scrollbar {
@@ -123,6 +128,12 @@ h2 {
         width: 60vw;
         height: 80vh;
     }
+
+    /* Screen shop */
+    @media (min-width: 1080px), (min-height: 1920px) {
+        width: 60vw;
+        height: 50vh;
+    }
 }
 
 /* SLIDER INFO DETAILS */
@@ -150,6 +161,12 @@ h2 {
     @media (min-width: 1025px) {
         width: 60vw;
         height: 80vh;
+    }
+
+    /* Screen shop */
+    @media (min-width: 1080px), (min-height: 1920px) {
+        width: 60vw;
+        height: 50vh;
     }
 }
 
