@@ -9,6 +9,7 @@ body {
     --primary-text-color: #17161C;
     --secundaire-text-color: #DADFE3;
     --primary-heighleight-color: #AADC64;
+    --secundaire-heighleight-color: #52751A;
 
     /* FONTS */
     --font-size-h1: 3em;
@@ -95,8 +96,12 @@ body {
         color: var(--secundaire-text-color);
     }
 
-    .highleight-text {
+    .highleight-text-light {
         color: var(--primary-heighleight-color);
+    }
+
+    .highleight-text-dark {
+        color: var(--secundaire-heighleight-color);
     }
 
     dl{
