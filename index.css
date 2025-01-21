@@ -371,7 +371,7 @@ dd {
 
 /* FOOTER */
 
-a{
+.Qr-code{
     position: fixed;
     bottom: 5%;
     color: var(--secundaire-text-color);
