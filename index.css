@@ -161,6 +161,13 @@ h2 {
         grid-template-rows: 6rem 2rem;
         bottom: 7%;
     }
+
+    /* Laptop L */
+    @media (min-width: 1025px) {
+        grid-template-columns: 24rem 13rem;
+        grid-template-rows: 10rem 3rem;
+        bottom: 5%;
+    }
 }
 
 /* Grid elements */
@@ -171,8 +178,16 @@ h3 {
 
    /* Tablet */
    @media (min-width: 426px) {
-    grid-area: titel;
-    width: auto;
+        grid-area: titel;
+        width: auto;
+    }
+
+    /* Laptop L */
+    @media (min-width: 1025px) {
+        grid-area: titel;
+        font-size: 3rem;
+        line-height: 2.8rem;
+        max-width: 24rem;
     }
 }
 
@@ -197,6 +212,22 @@ h3 {
         &.imgRoute3{
             height: 6rem;
         }
+    }
+
+    /* Laptop L */
+    @media (min-width: 1025px) {
+
+        &.imgRoute1{
+            height: 6rem;
+            }
+    
+            &.imgRoute2{
+                height: 10rem;
+            }
+    
+            &.imgRoute3{
+                height: 10rem;
+            }
     }
 }
 
