@@ -147,9 +147,20 @@ h2 {
     bottom: 20%;
     left: 5%;
     
-    /* FLEX / GRID */
+    /* FLEX */
     display: flex;
     flex-direction: column;
+
+    /* Tablet */
+    @media (min-width: 426px) {
+        display: grid;
+        grid-template-areas:
+        "titel img"
+        "info info";
+        grid-template-columns: 13rem 13rem;
+        grid-template-rows: 6rem 2rem;
+        bottom: 7%;
+    }
 }
 
 /* Grid elements */
@@ -157,10 +168,36 @@ h3 {
     margin-bottom: 0px;
    align-self: flex-start;
    color: var(--secundaire-text-color);
+
+   /* Tablet */
+   @media (min-width: 426px) {
+    grid-area: titel;
+    width: auto;
+    }
 }
 
 .imgRoute {
-    display: none;
+    display: none; /* Hides the element */
+    align-self: end;
+
+    
+    /* Tablet */
+    @media (min-width: 426px) {
+        grid-area: img;
+       display: block;
+
+       &.imgRoute1{
+        height: 4rem;
+        }
+
+        &.imgRoute2{
+            height: 6rem;
+        }
+
+        &.imgRoute3{
+            height: 6rem;
+        }
+    }
 }
 
 dl {
@@ -169,6 +206,12 @@ dl {
     flex-wrap: wrap;
     width: 11.9rem;
     color: var(--secundaire-text-color);
+
+    /* Tablet */
+    @media (min-width: 426px) {
+        width: auto;
+        grid-area: info;
+    }
 }
 
 .slide-number {
@@ -176,6 +219,12 @@ dl {
     bottom: 5%;
     text-align: middle;
     color: var(--secundaire-text-color);
+
+    /* Tablet */
+    @media (min-width: 426px) {
+        top: 0;
+        left: 1.5rem;
+    }
 }
 
 dd {
@@ -193,6 +242,11 @@ dd {
     height: 3rem;
     border: none;
     border-radius: 5px;
+
+    /* Tablet */
+    @media (min-width: 426px) {
+        top: 45%;
+    }
 
     /* Laptop L */
     @media (min-width: 1025px) {
