@@ -24,6 +24,17 @@ header {
     flex-direction: column;
 }
 
+.header-index {
+
+    & h1{
+        color: var(--secundaire-text-color);
+    }
+
+    & h2{
+        color: var(--secundaire-text-color);
+    }
+}
+
 h1 {
     /* Tablet */
     @media (min-width: 426px) {
@@ -324,3 +335,17 @@ dd {
         right: 14rem;
     }
 }
+
+/* FOOTER */
+
+a{
+    color: var(--secundaire-text-color);
+    text-decoration: none;
+    font-size: 2.5rem;
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    gap: 3rem;
+    max-width: 45rem;
+}
+
