@@ -273,6 +273,7 @@ dd {
     height: 3rem;
     border: none;
     border-radius: 5px;
+    cursor: pointer;
 
     /* Tablet */
     @media (min-width: 426px) {
@@ -306,6 +307,11 @@ dd {
     }
 }
 
+.button--previous:hover{
+    color: white;
+    background-color: black;
+}
+
 .button--next {
     right: 1.5rem;
 
@@ -323,6 +329,11 @@ dd {
     @media (min-width: 1025px) {
         right: 14rem;
     }
+}
+
+.button--next:hover{
+    color: white;
+    background-color: black;
 }
 
 .circel {
