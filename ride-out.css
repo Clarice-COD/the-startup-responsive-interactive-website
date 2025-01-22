@@ -1,4 +1,7 @@
-
+@font-face {
+    font-family: "NB International Pro";
+    src: url(assets/fonts/NBInternationalPro-Regular.ttf)format("TrueType");
+}
 
 body {
     /* COLOR */
