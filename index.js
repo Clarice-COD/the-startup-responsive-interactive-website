@@ -41,7 +41,7 @@
     }
 
     let direction = "right";
-    setInterval(directionChange, 6000); // Sets the amount of seconds the automatic scroll will take place
+    setInterval(directionChange, 8000); // Sets the amount of seconds the automatic scroll will take place
 
     // STEP 2 - Add a function
     function directionChange() {
