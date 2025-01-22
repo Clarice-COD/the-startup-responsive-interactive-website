@@ -23,6 +23,8 @@ Voor dit project worden twee pagina’s opgeleverd:
 
 Zie meer informatie in de [debriefing](https://github.com/Clarice-COD/the-startup-responsive-interactive-website/issues/2)
 
+
+
 ### De huisstijl van Ride Out
 [Figma bestand](https://www.figma.com/design/D2uZCMGovzNcc8JzulmwMi/I-love-web?node-id=0-1&p=f&m=dev)
 
@@ -31,7 +33,7 @@ Kleurgebruik:
 <img width="659" alt="Scherm­afbeelding 2025-01-21 om 22 52 54" src="https://github.com/user-attachments/assets/8fcccea0-ea71-4996-83dc-20a7e670d5df" />
 
 ### Responsive
-Ik heb de website responsive gemaakt met behulp van @media. 
+Ik ben begonnen met mobile first. Mobile word het meest gebruikt, zelfs meer dan desktop. Ook is het werken vanuit een klein formaat naar een groot formaat gunstiger omdat niet altijd alle content past op zo'n klein scherm dus kan je daar rekening mee houden. 
 
 Formaten waarop ik heb gefocust
 - mobiel
