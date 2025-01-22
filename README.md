@@ -41,12 +41,34 @@ Formaten waarop ik heb gefocust
 - laptop
 - laptop L
 
-<img width="828" alt="Scherm­afbeelding 2025-01-21 om 23 08 19" src="https://github.com/user-attachments/assets/2a947121-7704-4944-b636-d3dd20d28ad3" />
+<img width="300" alt="Scherm­afbeelding 2025-01-21 om 23 08 19" src="https://github.com/user-attachments/assets/2a947121-7704-4944-b636-d3dd20d28ad3" />
 
 
 Op vraag van de klant heb ik de eerste pagina spiciek op het formaat 1080 x 1920 gemaakt. Dit is het formaat van een scherm die in de winkel staat.
 
 <img width="325" alt="Scherm­afbeelding 2025-01-21 om 23 09 50" src="https://github.com/user-attachments/assets/4ffd4e49-7136-48b7-a2d1-7db74a2362f3" />
+
+### Kleur contrast
+Ik heb alle kleuren in het ontwerp van Ride Out getest en de meeste kwamen goed uit de test behalve het onderstaande voorbeeld. Deze test is voor de user friendly en het contrast tussen het verschil ligt heel erg laat. 
+
+<img width="300" alt="Scherm­afbeelding 2025-01-21 om 17 17 41" src="https://github.com/user-attachments/assets/a1b811ff-e74f-408b-899e-709da9919296" />
+
+Vandaar dat ik ben gaan onderzoeken naar andere tinten groen die wel goed scoren in de test. Dit is belangrijk omdat best veel mensen beperkt zijn in hun zicht. 1 op de 12 mannen is kleurenblind en zou dit dus niet kunnen lezen. De orginele groen gebruik ik wel in de donkere versie, omdat dit uitstekend uit de test was gekomen. Voor de lichte website heb ik dus een donkerdere tint groen gebruikt. Zie het verschil in leesbaarheid hieronder:
+
+Before:
+
+<img width="300" alt="Scherm­afbeelding 2025-01-22 om 21 20 12" src="https://github.com/user-attachments/assets/9c123d4d-3337-4c86-9108-3a7ab6f02abb" />
+
+After:
+
+<img width="300" alt="Scherm­afbeelding 2025-01-22 om 21 20 22" src="https://github.com/user-attachments/assets/fd35dd5e-b97e-410a-8f30-5b1bc300dc55" />
+
+
+
+
+
+### Interacties
+
 
 
 <!-- In de Beschrijving staat hoe je project er uit ziet, hoe het werkt en wat je er mee kan. -->
