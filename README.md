@@ -63,6 +63,12 @@ After:
 
 <img width="300" alt="Scherm­afbeelding 2025-01-22 om 21 20 22" src="https://github.com/user-attachments/assets/fd35dd5e-b97e-410a-8f30-5b1bc300dc55" />
 
+### Automatic slider
+Deze slider werkt automatisch en is voor op het scherm in de winkel. Elk beeld word 8 secondes in beeld getoond en schuift dan op zodat het volgende beeld getoond word. Deze automatische slider is eindeloos. Zodra de laatste slider in beeld is gebracht schuift die weer in de tegenover gestelde richting terug naar slide 1, enzovoorts. 
+
+https://github.com/user-attachments/assets/1cfa36f0-874a-459c-87fa-0567cdc4db6c
+
+
 
 
 
