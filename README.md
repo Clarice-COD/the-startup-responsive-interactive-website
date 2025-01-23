@@ -59,9 +59,9 @@ Formaten waarop ik heb gefocust
 <img width="470" alt="Scherm­afbeelding 2025-01-21 om 23 08 19" src="https://github.com/user-attachments/assets/2a947121-7704-4944-b636-d3dd20d28ad3" />
 
 
-Op vraag van de klant heb ik de eerste pagina spiciek op het formaat 1080 x 1920 gemaakt. Dit is het formaat van een scherm die in de winkel staat.
+De klant wilde graag een pagina spiciek op het formaat 1080 x 1920 voor op het scherm in de winkel. Zie hieronder het ontwerp:
 
-<img width="470" alt="Scherm­afbeelding 2025-01-21 om 23 09 50" src="https://github.com/user-attachments/assets/4ffd4e49-7136-48b7-a2d1-7db74a2362f3" />
+<img width="200" alt="Scherm­afbeelding 2025-01-21 om 23 09 50" src="https://github.com/user-attachments/assets/4ffd4e49-7136-48b7-a2d1-7db74a2362f3" />
 
 ### Kleur contrast
 Ik heb alle kleuren in het ontwerp van Ride Out getest en de meeste kwamen goed uit de test behalve het onderstaande voorbeeld. Deze test is voor de user friendly en het contrast tussen het verschil ligt heel erg laag. 
@@ -82,11 +82,11 @@ After:
 
 Scherm winkel:
 
-<img width="600" alt="Scherm­afbeelding 2025-01-22 om 20 19 48" src="https://github.com/user-attachments/assets/2c74d21e-8172-425d-a7c1-d9aa7b0ab5d4" />
+<img width="470" alt="Scherm­afbeelding 2025-01-22 om 20 19 48" src="https://github.com/user-attachments/assets/2c74d21e-8172-425d-a7c1-d9aa7b0ab5d4" />
 
  Web pagina:
  
-<img width="600" alt="Scherm­afbeelding 2025-01-22 om 20 30 25" src="https://github.com/user-attachments/assets/0b8b6831-8b2c-4129-992d-920cf75e164b" />
+<img width="470" alt="Scherm­afbeelding 2025-01-22 om 20 30 25" src="https://github.com/user-attachments/assets/0b8b6831-8b2c-4129-992d-920cf75e164b" />
 
 
 
