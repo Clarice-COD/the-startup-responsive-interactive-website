@@ -49,11 +49,11 @@ Op vraag van de klant heb ik de eerste pagina spiciek op het formaat 1080 x 1920
 <img width="325" alt="Scherm­afbeelding 2025-01-21 om 23 09 50" src="https://github.com/user-attachments/assets/4ffd4e49-7136-48b7-a2d1-7db74a2362f3" />
 
 ### Kleur contrast
-Ik heb alle kleuren in het ontwerp van Ride Out getest en de meeste kwamen goed uit de test behalve het onderstaande voorbeeld. Deze test is voor de user friendly en het contrast tussen het verschil ligt heel erg laat. 
+Ik heb alle kleuren in het ontwerp van Ride Out getest en de meeste kwamen goed uit de test behalve het onderstaande voorbeeld. Deze test is voor de user friendly en het contrast tussen het verschil ligt heel erg laag. 
 
 <img width="300" alt="Scherm­afbeelding 2025-01-21 om 17 17 41" src="https://github.com/user-attachments/assets/a1b811ff-e74f-408b-899e-709da9919296" />
 
-Vandaar dat ik ben gaan onderzoeken naar andere tinten groen die wel goed scoren in de test. Dit is belangrijk omdat best veel mensen beperkt zijn in hun zicht. 1 op de 12 mannen is kleurenblind en zou dit dus niet kunnen lezen. De orginele groen gebruik ik wel in de donkere versie, omdat dit uitstekend uit de test was gekomen. Voor de lichte website heb ik dus een donkerdere tint groen gebruikt. Zie het verschil in leesbaarheid hieronder:
+Vandaar dat ik ben gaan onderzoeken naar andere tinten groen die wel goed scoren in de test. Dit is belangrijk omdat best veel mensen beperkt zijn in hun zicht. 1 op de 12 mannen heeft een vorm van kleurenblind en zou dit dus niet kunnen lezen. De orginele groen gebruik ik wel in de donkere versie, omdat dit uitstekend uit de test was gekomen. Voor de lichte website heb ik dus een donkerdere tint groen gebruikt. Zie het verschil in leesbaarheid hieronder:
 
 Before:
 
@@ -63,10 +63,17 @@ After:
 
 <img width="300" alt="Scherm­afbeelding 2025-01-22 om 21 20 22" src="https://github.com/user-attachments/assets/fd35dd5e-b97e-410a-8f30-5b1bc300dc55" />
 
-### Automatic slider
+### Automatic slider (scherm winkel)
 Deze slider werkt automatisch en is voor op het scherm in de winkel. Elk beeld word 8 secondes in beeld getoond en schuift dan op zodat het volgende beeld getoond word. Deze automatische slider is eindeloos. Zodra de laatste slider in beeld is gebracht schuift die weer in de tegenover gestelde richting terug naar slide 1, enzovoorts. 
 
 https://github.com/user-attachments/assets/1cfa36f0-874a-459c-87fa-0567cdc4db6c
+
+
+### klickable & scroll (web pagina)
+De slider is zowel klikbaar als te scrollen dus beide zijn mogelijk. 
+
+https://github.com/user-attachments/assets/aaa51010-76b0-45fa-b98f-8dccacf75207
+
 
 
 
