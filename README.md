@@ -63,6 +63,24 @@ After:
 
 <img width="300" alt="Scherm­afbeelding 2025-01-22 om 21 20 22" src="https://github.com/user-attachments/assets/fd35dd5e-b97e-410a-8f30-5b1bc300dc55" />
 
+### HTML validator test
+
+Scherm winkel:
+
+<img width="600" alt="Scherm­afbeelding 2025-01-22 om 20 19 48" src="https://github.com/user-attachments/assets/2c74d21e-8172-425d-a7c1-d9aa7b0ab5d4" />
+
+ Web pagina:
+ 
+<img width="600" alt="Scherm­afbeelding 2025-01-22 om 20 30 25" src="https://github.com/user-attachments/assets/0b8b6831-8b2c-4129-992d-920cf75e164b" />
+
+
+
+
+### Accessibility test
+
+
+
+
 ### Automatic slider (scherm winkel)
 Deze slider werkt automatisch en is voor op het scherm in de winkel. Elk beeld word 8 secondes in beeld getoond en schuift dan op zodat het volgende beeld getoond word. Deze automatische slider is eindeloos. Zodra de laatste slider in beeld is gebracht schuift die weer in de tegenover gestelde richting terug naar slide 1, enzovoorts. 
 
