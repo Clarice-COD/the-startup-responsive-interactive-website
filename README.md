@@ -48,6 +48,8 @@ Fotografie:
 
 Typografie:
 
+NB International Pro
+
 <img width="470" alt="Scherm­afbeelding 2025-01-23 om 15 30 51" src="https://github.com/user-attachments/assets/16de544d-d156-44be-bb96-f324b461ad23" />
 
 
