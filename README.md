@@ -51,17 +51,30 @@ Typografie:
 Ik ben begonnen met mobile first. Mobile word het meest gebruikt, zelfs meer dan desktop. Ook is het werken vanuit een klein formaat naar een groot formaat gunstiger omdat niet altijd alle content past op zo'n klein scherm dus kan je daar rekening mee houden. 
 
 Formaten waarop ik heb gefocust
-- mobiel
+- mobile
 - tablet
 - laptop
 - laptop L
 
-<img width="470" alt="Scherm­afbeelding 2025-01-21 om 23 08 19" src="https://github.com/user-attachments/assets/2a947121-7704-4944-b636-d3dd20d28ad3" />
+Mobile: 
 
+<img height="200" alt="responsive - mobile" src="https://github.com/user-attachments/assets/f575f8f0-2b0b-4251-b17b-56b8484b6e03" />
 
-De klant wilde graag een pagina spiciek op het formaat 1080 x 1920 voor op het scherm in de winkel. Zie hieronder het ontwerp:
+Tablet: 
 
-<img width="200" alt="Scherm­afbeelding 2025-01-21 om 23 09 50" src="https://github.com/user-attachments/assets/4ffd4e49-7136-48b7-a2d1-7db74a2362f3" />
+<img height="200" alt="responsive - tablet" src="https://github.com/user-attachments/assets/9cbb14c9-0e64-4b53-80d3-152600f193cd" />
+
+Laptop: 
+
+<img height="200" alt="responsive - laptop" src="https://github.com/user-attachments/assets/d69beac6-bf07-4841-8142-acb231531b9e" />
+
+Laptop L: 
+
+<img height="200" alt="responsive - laptop L" src="https://github.com/user-attachments/assets/7de47c15-60c7-4c46-a7c2-cefc8a5948fe" />
+
+1080 x 1920:
+
+<img height="200" alt="Scherm­afbeelding 2025-01-21 om 23 09 50" src="https://github.com/user-attachments/assets/4ffd4e49-7136-48b7-a2d1-7db74a2362f3" />
 
 ### Kleur contrast
 Ik heb alle kleuren in het ontwerp van Ride Out getest en de meeste kwamen goed uit de test behalve het onderstaande voorbeeld. Deze test is voor de user friendly en het contrast tussen het verschil ligt heel erg laag. 
