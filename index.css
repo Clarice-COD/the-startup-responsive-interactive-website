@@ -255,7 +255,7 @@ dd {
 
 .slide-number {
     position: absolute;
-    bottom: 5%;
+    bottom: 3%;
     text-align: middle;
     color: var(--secundaire-text-color);
 
@@ -267,29 +267,33 @@ dd {
 }
 
 .button {
+    display: flex;
     position: absolute;
+    font-size: var(--font-size-text-s);
     bottom: 10%;
-    width: 3rem;
-    height: 3rem;
+    padding: 10px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
 
     /* Tablet */
     @media (min-width: 426px) {
-        top: 45%;
+        bottom: 45%;
     }
 
     /* Laptop L */
     @media (min-width: 1025px) {
-        width: 4.5rem;
-        height: 4.5rem;
+        font-size: var(--font-size-text-l);
+        bottom: 55%;
     }
 }
 
 .button--previous {
-    left: 1.5rem;
-    transform: rotate(180deg);
+    left: 2rem;
+
+    & .direction{
+        rotate: 180deg;
+    }
 
     /* Tablet */
     @media (min-width: 426px) {
@@ -308,12 +312,11 @@ dd {
 }
 
 .button--previous:hover{
-    color: white;
-    background-color: black;
+    background-color: var(--primary-heighleight-color);
 }
 
 .button--next {
-    right: 1.5rem;
+    right: 2rem;
 
     /* Tablet */
     @media (min-width: 426px) {
@@ -332,8 +335,16 @@ dd {
 }
 
 .button--next:hover{
-    color: white;
-    background-color: black;
+    background-color: var(--primary-heighleight-color);
+}
+
+.direction {
+    width: 20px;
+
+    /* Laptop L */
+    @media (min-width: 1025px) {
+        width: 30px;
+    }
 }
 
 .circel {
