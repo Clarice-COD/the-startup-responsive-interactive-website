@@ -364,5 +364,6 @@ dd {
     flex-direction: row;
     gap: 3rem;
     max-width: 45rem;
+    height: 10rem;
 }
 
