@@ -40,6 +40,12 @@ Beelden:
 
 <img width="470" alt="Scherm­afbeelding 2025-01-23 om 15 28 37" src="https://github.com/user-attachments/assets/2a6921c6-2868-471d-b3ac-fd724e353ac5" />
 
+Fotografie:
+
+<img width="470" alt="images" src="https://github.com/user-attachments/assets/625ac1f6-7580-4974-a270-2d950b52ff96" />
+
+
+
 Typografie:
 
 <img width="470" alt="Scherm­afbeelding 2025-01-23 om 15 30 51" src="https://github.com/user-attachments/assets/16de544d-d156-44be-bb96-f324b461ad23" />
