@@ -1,7 +1,8 @@
 [INSTRUCTIONS.md](https://github.com/fdnd-task/the-startup-responsive-interactieve-website/blob/main/docs/INSTRUCTIONS.md)
 
 # Ride Out - the startup responsive interactive website
-Voor het bedrijf Ride Out ga ik een responsive en interactieve web pagina programmeren. 
+Voor het bedrijf Ride Out heb ik een responsive en interactieve web pagina programmeren. Zie hieronder 
+
 
 ## Beschrijving
 
