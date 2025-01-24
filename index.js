@@ -11,21 +11,6 @@
     const SliderCount = itemList.length; // Calculates the length of each slider
 
     // STEP 2 - Add a function
-    function handleClick(direction) {  // handleClick checks which of the 2 button was pressed and bases the next move on that
-
-        // STEP 3 - Add an action
-        if(direction === "previous") { // Is to compare 2 values of which only one should be used in this case
-            slider.scrollBy({ left: -oneScrollDist, behavior: "smooth"}); // When the button previous is pressed, the elements will be scrollen to the left
-            slideIndex--; // Every slider has it's own number, this code will decrease the number by 1
-        }
-
-        else{
-            slider.scrollBy({ left: oneScrollDist, behavior: "smooth"}); // When the button previous is pressed, the elements will be scrollen to the right
-            slideIndex++; // Every slider has it's own number, this code will increase the number by 1
-        }
-    } 
-
-    // STEP 2 - Add a function
     function sliderSize(){
 
         // STEP 3 - Add an action
