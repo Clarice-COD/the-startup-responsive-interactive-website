@@ -86,7 +86,7 @@ Laptop L:
 <img height="200" alt="Scherm­afbeelding 2025-01-21 om 23 09 50" src="https://github.com/user-attachments/assets/4ffd4e49-7136-48b7-a2d1-7db74a2362f3" />
 
 ### Kleur contrast
-Ik heb alle kleuren in het ontwerp van Ride Out getest en de meeste kwamen goed uit de test behalve het onderstaande voorbeeld. Deze test is voor de user friendly en het contrast tussen het verschil ligt heel erg laag. 
+Ik heb alle kleuren in het ontwerp van Ride Out getest en de meeste kwamen goed uit de test behalve het onderstaande voorbeeld. Deze test is voor de user friendly en het contrast is heel laag. 
 
 <img width="470" alt="Scherm­afbeelding 2025-01-21 om 17 17 41" src="https://github.com/user-attachments/assets/a1b811ff-e74f-408b-899e-709da9919296" />
 
@@ -115,27 +115,20 @@ Scherm winkel:
 
 ### Accessibility test
 
+<img width="470" alt="Scherm­afbeelding 2025-01-22 om 12 16 13" src="https://github.com/user-attachments/assets/02f9996b-8856-4793-8b17-61af03a0fd43" />
 
 
-
-### Automatic slider (scherm winkel)
+### Interacties
+#### Automatic slider (scherm winkel)
 Deze slider werkt automatisch en is voor op het scherm in de winkel. Elk beeld word 8 secondes in beeld getoond en schuift dan op zodat het volgende beeld getoond word. Deze automatische slider is eindeloos. Zodra de laatste slider in beeld is gebracht schuift die weer in de tegenover gestelde richting terug naar slide 1, enzovoorts. 
 
 https://github.com/user-attachments/assets/1cfa36f0-874a-459c-87fa-0567cdc4db6c
 
 
-### klickable & scroll (web pagina)
+#### klickable & scroll (web pagina)
 De slider is zowel klikbaar als te scrollen dus beide zijn mogelijk. 
 
 https://github.com/user-attachments/assets/aaa51010-76b0-45fa-b98f-8dccacf75207
-
-
-
-
-
-
-
-### Interacties
 
 
 
