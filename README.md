@@ -115,6 +115,7 @@ Scherm winkel:
 
 ### Accessibility test
 
+<img width="470" alt="Scherm­afbeelding 2025-01-22 om 12 16 13" src="https://github.com/user-attachments/assets/02f9996b-8856-4793-8b17-61af03a0fd43" />
 
 
 
