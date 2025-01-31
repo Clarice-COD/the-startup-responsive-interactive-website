@@ -86,7 +86,7 @@ Laptop L:
 <img height="200" alt="Scherm­afbeelding 2025-01-21 om 23 09 50" src="https://github.com/user-attachments/assets/4ffd4e49-7136-48b7-a2d1-7db74a2362f3" />
 
 ### Kleur contrast
-Ik heb alle kleuren in het ontwerp van Ride Out getest en de meeste kwamen goed uit de test behalve het onderstaande voorbeeld. Deze test is voor de user friendly en het contrast tussen het verschil ligt heel erg laag. 
+Ik heb alle kleuren in het ontwerp van Ride Out getest en de meeste kwamen goed uit de test behalve het onderstaande voorbeeld. Deze test is voor de user friendly en het contrast is heel laag. 
 
 <img width="470" alt="Scherm­afbeelding 2025-01-21 om 17 17 41" src="https://github.com/user-attachments/assets/a1b811ff-e74f-408b-899e-709da9919296" />
 
